@@ -17,9 +17,9 @@ export const Login = () => {
   };
 
   return (
-    <Box maxW="400px" mx="auto" mt={10}>
+    j < Box maxW = "400px" mx = "auto" mt = { 10} >
       <Heading mb={6}>Login</Heading>
       <AuthForm isLogin onSubmit={handleLogin} />
-    </Box>
+    </Box >
   );
 };
